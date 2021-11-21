@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h4 align="center"> STUDENT REGISTRATION FORM</h4>
+        <p align="center">Fill out the form carefully for registration</p>
+    </head>
+    <body>
+        <hr><br>
+        <p><h4>Student Name</h4></p>
+        <form action="next.php" method=" POST">
+            First Name <input type="text" name=="fname" placeholder="First Name" >*
+            Mid Name <input  type="text" name=="mname" placeholder="Mid Name">*<br><br>
+            Last Name <input  type="text" name=="lname" placeholder="Last Name">*
+
+           <p><h4>Birth Date</h4></p>
+           <select>
+                <option type="number" name="mname"value="Month" > Month</option>
+                <option type="number" name="mname" value="Month">January</option>
+                <option type="number" name="mname" value="Month">February</option>
+                <option type="number" name="mname" value="Month">March</option>
+            </select>
+            <select>
+                <option type="number"  name="dname"value="Day"> Day</option>
+                <option type="number" name="dname" value="Day"> 1</option>
+                <option type="number" name="dname" value="Day"> 2</option>
+                <option type="number" name="dname" value="Day"> 3</option>
+            </select>
+            <select>
+                <option type="number" name="yname" value="Year"> Year</option>
+                <option type="number" name="yname" value="Year"> 2019</option>
+                <option type="number" name="yname" value="Year"> 2020</option>
+                <option type="number" name="yname" value="Year"> 2021</option>
+            </select>
+            <p><h4>Gender</h4></p>
+            <select>
+            <option value="Male"> Male</option>
+            <option value="Female"> Female</option>
+            <option value="Others">Others</option>
+            </select><br>
+            <h4>Address</h4>
+            <textarea></textarea>
+            <p>Street Address</p><br>
+            <textarea></textarea>
+            <p>Street Address Line2</p><br>
+            <br>
+            <table>
+                <tr>
+                    <th align="left">
+                        <input type="text" name="cname">
+                         <h4>City</h4>
+                    </th> 
+                    <th>
+                        <input type="text" name="spname">
+                    <h4>State/province</h4>
+                    </th>
+                </tr>
+            </table><br>
+            <input type="text" name="pzname">
+            <h4>Postal/Zip code</h4><br>
+            <h4> Student E-Mail</h4>
+            <input type="text" name="sename" placeholder="ex: myname@example.com">
+            <p>example@example.com</p><br>
+            <h4>Mobile Number</h4>
+            <input type="number" name="monumber" placeholder="(000) 000-0000">
+            <br><br>
+            <h4>Phone Number</h4>
+            <input type="number" name="ponumber" placeholder="(000) 000-0000">
+            <br><br>
+            <h4>Work Number</h4>
+            <input type="number" name="wonumber" placeholder="(000) 000-0000">
+            <br><br>
+            <h4>Company</h4>
+            <input type="text" name="cmname">
+            <br>
+            <h4>Courses</h4>
+            <select>
+                <option type="text" value="Bsc(cs)" readonly>Bsc(cs)</option>
+                <option type="text" value="B.com" disabled>B.com</option>
+                <option type="text" value="Viscom">Viscom(cs)</option>
+            </select>
+            <br>
+            <h4>Additionl Comments</h4>
+            <textarea name="cMessages"  cols="30" rows="5"> 
+            </textarea> 
+            <br><br>
+            
+            
+            <input type="submit" name="submit " value="submit">
+
+            
+            
+        </form>
+        <a href="signup.html" align="right">Next Page-1</a>
+
+
+
+    </body>
+</html>

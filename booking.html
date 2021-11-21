@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <table width="100%">
+            <tr>
+                <td>
+        <h3 align="center">Ticket Booking Form</h3>
+                </td>
+           </tr>
+        </table><br><br>
+        <table width="100%" align="center">
+        <form action="next.php" method="post">
+            <tr >
+                *Name:<br>
+                <input type="text" name="fname" placeholder="FullName">
+            </tr><br><br><br>
+            <tr>
+                *E-mail:<br>
+                <input type="text" name="ename">
+            </tr><br><br><br>
+            <tr>
+                *Phone Number:<br>
+                <input type="number" name="poname">
+            </tr><br><br><br>
+            <tr>
+                *Booking Date/Time:<br>
+                <input type="datetime-local" name="dtname">
+            </tr><br><br><br>
+            <tr>
+                <h4>*Choose Ticket Type:</h4>
+                <input type="radio" name="rdname" value="Standard">Standard<br>
+                <input type="radio" name="rdname" value="Vip">Vip<br>
+                <input type="range" min="0" max="10">
+            </tr>
+            <tr>
+                <h3>*Number Of Tickets:</h3>
+                <input type="text" name="noname" >
+            </tr>
+            <tr>
+                <h3>*AdditionL Comments:</h3>
+                <textarea cols="30" rows="15"></textarea>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" value="Book Tickets" placeholder="Book Tickets">
+                </td>
+            </tr>
+        </form>
+        </table>
+        <a href="bank.html" align="left">Next Page-11</a>
+    </body>
+</html>
